@@ -53,7 +53,7 @@ section music*/
     background-color: #0a183d;
     display: flex;
     justify-content: center;
-    height: calc(70vh + 80px);
+    height: calc(90vh - 80px);
     margin:0 auto;
 }
 
@@ -68,7 +68,7 @@ section music*/
 }
 .container{
     width: 100%;
-    max-width: 1140px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -108,18 +108,86 @@ section music*/
 .music .carrusel p{
     line-height: 27px;
     padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 
-
-
-.music-hero-content{
-   
-    padding-top:100px;
-    padding-left: 11px;
-    padding-right: 11px;
-} 
-
 .music-hero-image{
     padding: 0px 15px;
+}
+
+.music-hero-content{
+    
+    padding-top:100px;
+    padding-left: 31px;
+    padding-right: 31px;
+} 
+
+.boton{
+    border-radius: 50px;
+    text-align: center;
+    padding: 24px 5px;
+    font-family: Montserrat;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: lighter; 
+    
+}
+
+.boton a{
+    padding: 24px 25px;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: none;
+    
+    
+}
+
+.red{
+    background-color: #fc0254;
+    min-width: 193px;
+}
+
+.gray{
+    background-color:#383b70;
+    min-width: 150px;
+}
+
+/* fin de music section   */
+/* comienzo access section  */
+
+.access{
+    background-color: #fff;   
+    height:100vh;
+
+}
+
+.access-both{
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.access .access-left{
+    font-size: 60px;
+    font-family: Montserrat;
+    text-align: left;
+    color:#0a183d;
+    padding: 0px 15px;
+    line-height: 63px;
+   
+}
+
+.access .access-right{
+    width: 100%;
+    max-width: 570px;
+    font-size: 15px;
+    font-family: Montserrat;
+    text-align: left;
+    color: #6a7080;
+    padding: 0px 15px;
+    line-height: 27px;
 }
