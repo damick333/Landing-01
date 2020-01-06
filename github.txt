@@ -2,3 +2,5 @@ git add .
 git status 
 git commit -m "mensaje"
 git push 
+
+https://docs.google.com/spreadsheets/d/106X73gHpQX-dm0VRnEuZJqocE-22A2bBuZHqqBJ-g7s/edit#gid=0

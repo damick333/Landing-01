@@ -116,6 +116,12 @@ section music*/
     padding: 0px 15px;
 }
 
+.music-hero-image img{
+    width: 100%;
+	max-width:602px;
+	height: auto;
+}
+
 .music-hero-content{
     
     padding-top:100px;
