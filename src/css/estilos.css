@@ -119,6 +119,7 @@ section music*/
     line-height: 27px;
     padding-top: 25px;
     padding-bottom: 50px;
+    font-size: 15px;
 }
 
 
@@ -135,28 +136,23 @@ section music*/
     width: 100%;
 }
 
-@media only screen and (max-width: 1100px){
-    .music-hero-content{
-        padding-top:97px;
-        padding:0px;
-        /* padding-left: 31px; */
-        min-width: 480px;
-}
-.music-hero-image{
-    padding-left:0px;
-}
-}
-@media only screen and (max-width: 980px){
-    .music-hero-image{
-        display: none;
-    }
-}
+
+
 
 .music-hero-content{
     padding-top:45px;
-    padding-left: 31px;
-    padding-right: 31px;
+    padding-left: 38px;
+    padding-right: 38px;
 } 
+
+@media only screen and (max-width: 1100px){
+    
+.music-hero-image{
+    padding-left:0px;
+    padding-right:15px;
+}
+}
+
 
 .boton{
     border-radius: 50px;
@@ -170,18 +166,39 @@ section music*/
 }
 
 .boton a{
-    padding: 24px 25px;
+    padding: 22px 25px;
     text-transform: uppercase;
     color:#fff;
     text-decoration: none;
-    
-    
 }
+
+@media only screen and (max-width: 992px){
+    .music-hero-image{
+        display: none;
+    }
+    .music-hero-content{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 50%;
+    }
+    .boton{
+    padding:24px 1px;
+
+}
+}
+
+
+
+
 
 .red{
     background-color: #fc0254;
-    min-width: 193px;
+    
 }
+ .rojo{
+    min-width: 193px;
+ padding: 19px 0px;
+ }
 
 .gray{
     background-color:#383b70;
@@ -192,8 +209,9 @@ section music*/
 /* comienzo access section  */
 
 .access{
-    background-color: #fff;   
-    height:100vh;
+    background-color: #fff; 
+    padding-bottom: 40px;  
+    height:auto;
 
 }
 
@@ -213,6 +231,7 @@ section music*/
     color:#0a183d;
     padding: 0px 15px;
     line-height: 63px;
+    font-weight: 600;
    
 }
 
@@ -224,5 +243,29 @@ section music*/
     text-align: left;
     color: #6a7080;
     padding: 0px 15px;
+    padding-top: 13px;
     line-height: 27px;
+}
+
+.access .access-right p{
+    padding-bottom:2rem ;
+}
+
+.works{
+    width: 100%;
+    background-image:url(../images/how-to-bg.jpg);
+    color:#fff;
+}
+
+
+@media only screen and (max-width: 650px){
+    .container{
+        display: inline-block;
+        padding-left: 50px;
+    }
+
+    .boton{
+        padding:24px 1px;
+    
+    }
 }
