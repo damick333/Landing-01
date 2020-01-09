@@ -255,8 +255,39 @@ section music*/
     width: 100%;
     background-image:url(../images/how-to-bg.jpg);
     color:#fff;
+    height: 62vh;
 }
 
+.works-both{
+    padding-top: 100px;
+}
+
+.works h2{
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding-left: 30px;
+
+}
+
+.steps{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.step{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+.circulo{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background-color: #fc0254;
+}
 
 @media only screen and (max-width: 650px){
     .container{
