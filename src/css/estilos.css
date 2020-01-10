@@ -104,11 +104,12 @@ section music*/
     margin: 0 auto;
     background: red;
 }
-.music .carrusel h2{
+.music .carrusel h1{
     font-size: 70px;
     margin: 0px;
     line-height: 62px;
     padding-top: 30px;
+    font-weight: 600;
 }
 
 .music .carrusel span{
@@ -116,10 +117,10 @@ section music*/
 }
 
 .music .carrusel p{
-    line-height: 27px;
+    
     padding-top: 25px;
     padding-bottom: 50px;
-    font-size: 15px;
+    
 }
 
 
@@ -214,10 +215,11 @@ section music*/
 
 .access{
     background-color: #fff; 
-    padding-bottom: 40px;  
-    height:48vh;
+    /* padding-bottom: 40px;   */
+    /* height:48vh; */
 
 }
+
 
 .access-both{
     /* display: flex;
@@ -225,7 +227,6 @@ section music*/
     background-color: #fff;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -238,12 +239,14 @@ section music*/
     padding: 0px 15px;
     line-height: 63px;
     font-weight: 600;
+    width: 50%;
    
 }
 
 .access .access-right{
-    width: 100%;
-    max-width: 570px;
+    /* width: 100%;
+    max-width: 570px; */
+    width: 50%;
     font-size: 15px;
     font-family: Montserrat;
     text-align: left;
@@ -261,17 +264,21 @@ section music*/
     width: 100%;
     background-image:url(../images/how-to-bg.jpg);
     color:#fff;
-    height: 62vh;
 }
 
-.works-both{
-    padding-top: 100px;
-}
-
-.works h2{
+h2{
     font-size: 60px;
     font-family: Montserrat;
     font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    font-family: Montserrat;
+    line-height: 27px;
+}
+
+.works h2{
     padding-left: 30px;
 
 }
@@ -315,8 +322,7 @@ section music*/
 }
 
 .step p{
-    font-size: 15px;
-    line-height: 27px;
+    
     color: rgba(255, 255, 255, .5);
     
 }
@@ -337,17 +343,66 @@ section music*/
 
 .concept-texto div{
     width: 50%;
+    padding-left:16px;
+    padding-right:16px;
 }
 
 .concept-texto .concept-title h2{
-    
+    color:#0a183d;
     font-size: 60px;
     font-weight: 600;
+    padding: 0px 10px;
 }
  
-.concept-texto .concept-p p{
- line-height: 25px;
-    font-size: 15px;
+.concept-texto .concept-p p{   
+    color:#6a7080;
+}
+
+.espacios{
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+.fotografias{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotografias .fotografia img{
+    border-radius: 15%;
+}
+
+.fotografias .fotografia span{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Montserrat;
+    color:#0a183d;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.subscription{
+    background-color: #0a183d;
+    color: #ffffff;
+}
+
+.subscription-left, .subs-list{
+    width: 50%;
+}
+
+.subscription-left span{
+    font-family: Montserrat;
+    color: #fc0254;
+    font-size: 30px;
+}
+
+.subs-list li{
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 650px){
