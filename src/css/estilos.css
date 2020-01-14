@@ -13,7 +13,7 @@ body{
 .menu{
     background-color: #08192d;
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between; 
     align-items: center;
     color:#fff;
@@ -95,7 +95,7 @@ section music*/
 }
 .music-hero{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
 }
@@ -229,7 +229,7 @@ section music*/
     justify-content: space-around; */
     background-color: #fff;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding-right: 15px;
     padding-left: 15px;
@@ -289,7 +289,7 @@ p{
 
 .steps{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
@@ -308,7 +308,7 @@ p{
     border-radius: 50%;
     background-color: #fc0254;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
 }
 
@@ -343,7 +343,7 @@ p{
 
 .concept-texto{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     font-family: Montserrat;
 }
@@ -374,7 +374,7 @@ p{
     padding-right: 30px;
     padding-top: 70px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
 }
 
@@ -434,7 +434,6 @@ p{
     align-items: center; 
     justify-content:center;
     opacity:.8;
-    flex-wrap: wrap;
 }
   
 .subs-list ul{
@@ -473,6 +472,42 @@ p{
     .boton{
         padding:24px 1px;
     
+    }
+    .subs-list{
+        flex-wrap: wrap;
+    }
+    .fotografias{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .concept-texto{
+        flex-wrap: wrap;
+    }
+
+    .circulo{
+        flex-wrap: wrap;
+    }
+
+    .steps{
+        flex-wrap: wrap;
+    }
+
+    .access-both{
+        flex-wrap: wrap;
+    }
+    .music-hero{
+        flex-wrap: wrap;
+    }
+
+    .music{
+        flex-wrap: wrap;
+    }
+
+    .menu{
+        flex-wrap: wrap;
     }
 }
 
