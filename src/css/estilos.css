@@ -629,10 +629,13 @@ p{
     .access .access-left{
         padding:0px;
     }
-    h2{
-        font-size: 46px;
+
+    h2, h1{
+        font-size: 46px !important;
     }
-    .concept-title h2{
+    
+
+    .concept-title h2{  
         padding-bottom: 30px;
         font-size: 46px;
     }
@@ -644,9 +647,60 @@ p{
 
     .fotografias{
         padding:0px;
+        justify-content: center;
     }
 
     .subs-list {
         width: auto;
         padding: 0px;
+}
+
+    .footer-left{
+        padding-bottom: 60px;
+    }
+
+    .footer-right{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscription-left h2{
+        padding-left:0px;
+        font-size: 36px;
+    }
+
+    .container{
+        padding-left: 20px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 360px){
+
+    h2{
+        font-size:30px !important;
+    }
+
+    .music .carrusel p {
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .boton {
+        margin-bottom: 11px;
+        font-size: 12px;
+    }
+
+    .music-hero-content {
+        padding-left: 0px; 
+        padding-right: 0px;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .subscription-left span{
+        font-size: 22PX;
+    }
+
 }
