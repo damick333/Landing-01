@@ -30,6 +30,8 @@ body{
     padding-right: 125px;
 }
 
+
+
 .menu .solapa{
     display: inline-block;
     font-family: Montserrat;
@@ -149,13 +151,6 @@ section music*/
     padding-right: 33px;
 } 
 
-@media only screen and (max-width: 1100px){
-    
-.music-hero-image{
-    padding-left:0px;
-    padding-right:15px;
-}
-}
 
 
 .boton{
@@ -180,20 +175,7 @@ section music*/
     padding: 23px 50px;
 }
 
-@media only screen and (max-width: 992px){
-    .music-hero-image{
-        display: none;
-    }
-    .music-hero-content{
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 50%;
-    }
-    .boton{
-    padding:24px 1px;
 
-}
-}
 
 
 
@@ -354,7 +336,7 @@ p{
     padding-right:16px;
 }
 
-.concept-texto .concept-title h2{
+ .concept-title h2{
     color:#0a183d;
     font-size: 60px;
     font-weight: 600;
@@ -480,9 +462,14 @@ p{
 }
 
 .footer-left p a{
-    color:#0946f2;
+    color:#007bff;
     text-decoration: none;
 }
+
+.footer-left p a:hover{
+    opacity: .6;
+}
+
 .footer-left .logo{
     display: flex;
     flex-direction: row;
@@ -512,6 +499,80 @@ p{
 
 }
 
+
+@media screen and (max-width: 1120px){
+    .navbar-links  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    
+    .music-hero-image{
+        padding-left:0px;
+        padding-right:15px;
+    }
+    }
+    
+
+@media only screen and (max-width: 992px){
+    .music-hero-image{
+        display: none;
+    }
+    .slide{
+        top: 155px;
+    }
+    .music-hero-content{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 80%;
+    }
+    .boton{
+    padding:24px 1px;
+
+    }
+    .access-both{
+        flex-wrap: wrap;
+}
+    .access-left, .access-right{
+        width: 100% !important ;
+    }
+    .container{
+        width: 80%;
+    }
+    .steps{
+        flex-wrap: wrap;
+    }
+    .concept{
+        height: auto;
+    }
+    .concept-texto{
+        flex-wrap: wrap;
+    }
+    .concept-texto div{
+        width: 100%;
+    }
+    .fotografias{
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .fotografias .fotografia{
+        margin: 20px;
+    }
+    .subscription-left{
+        width: 100%;
+    }
+    .subs-list{
+        width: auto;
+        padding: 40px 80px;
+        margin-top: 40px;
+    }
+    .steps{
+        justify-content: left !important;
+    }
+}
+
 @media only screen and (max-width: 650px){
     .container{
         display: inline-block;
@@ -538,3 +599,54 @@ p{
     }
 }
 
+
+@media only screen and (max-width: 420px){
+    
+
+    .music .carrusel h1 {
+        font-size:50px;
+        padding-top: 0px;
+    }
+
+    .slide {
+        top: 0;
+}
+.music .carrusel p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    }
+
+    .boton {
+        margin-bottom: 20px;
+    }
+
+    .boton {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .access .access-left{
+        padding:0px;
+    }
+    h2{
+        font-size: 46px;
+    }
+    .concept-title h2{
+        padding-bottom: 30px;
+        font-size: 46px;
+    }
+    
+    .espacios {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+
+    .fotografias{
+        padding:0px;
+    }
+
+    .subs-list {
+        width: auto;
+        padding: 0px;
+}
