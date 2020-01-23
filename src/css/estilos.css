@@ -34,7 +34,7 @@ body{
 
 .menu .solapa{
     display: inline-block;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 16px;
 }
 
@@ -74,7 +74,7 @@ section music*/
     color:#fff;
     text-align: left;
     width: 100%;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     position: relative;
 }
 .container{
@@ -109,7 +109,7 @@ section music*/
     margin: 0 auto;
     background: red;
 }
-.music .carrusel h1{
+.music .carrusel .title{
     font-size: 70px;
     margin: 0px;
     line-height: 62px;
@@ -157,7 +157,7 @@ section music*/
     border-radius: 50px;
     text-align: center;
     padding: 24px 5px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 15px;
     display: inline-block;
     font-weight: lighter; 
@@ -219,7 +219,7 @@ section music*/
 
 .access .access-left{
     font-size: 60px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     text-align: left;
     color:#0a183d;
     padding: 0px 15px;
@@ -234,7 +234,7 @@ section music*/
     max-width: 570px; */
     width: 50%;
     font-size: 15px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     text-align: left;
     color: #6a7080;
     /* padding: 0px 15px; */
@@ -254,13 +254,13 @@ section music*/
 
 h2{
     font-size: 60px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 600;
 }
 
 p{
     font-size: 15px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     line-height: 27px;
 }
 
@@ -299,7 +299,7 @@ p{
 }
 
 .step{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
 .step h3{
@@ -327,7 +327,7 @@ p{
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
 .concept-texto div{
@@ -368,7 +368,7 @@ p{
     display: block;
     text-align: center;
     padding-top: 10px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     color:#0a183d;
     font-weight: 600;
     font-size: 18px;
@@ -385,7 +385,7 @@ p{
 }
 
 .subscription-left span{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     color: #fc0254;
     font-size: 30px;
     font-weight: 500;
@@ -420,7 +420,7 @@ p{
   
 
 .subs-list li{
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 18px;
     padding: 15px 0px;
     vertical-align: center;
@@ -456,7 +456,7 @@ p{
 .footer-left p{
     font-size: 11px;
     color:#6a7080;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     padding-top: 5px;
     padding-bottom: 20px;
 }
@@ -486,10 +486,13 @@ p{
    
 }
 
-.footer-right h2{
+.footer-right h3{
     font-size: 16px;
     color: #ffffff;
     padding-bottom: 40px;
+    font-family: 'Montserrat';
+    
+
 }
 
 .footer-right .items div{
@@ -504,6 +507,12 @@ p{
     .navbar-links  {
         display: none;
     }
+    .fotografias{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 1100px){
@@ -552,11 +561,11 @@ p{
     .concept-texto div{
         width: 100%;
     }
-    .fotografias{
+    /* .fotografias{
         flex-wrap: wrap;
         padding: 0;
         margin-top: 20px;
-    }
+    } */
     .fotografias .fotografia{
         margin: 20px;
     }
@@ -603,7 +612,7 @@ p{
 @media only screen and (max-width: 420px){
     
 
-    .music .carrusel h1 {
+    .music .carrusel .title {
         font-size:50px;
         padding-top: 0px;
     }
@@ -630,7 +639,7 @@ p{
         padding:0px;
     }
 
-    h2, h1{
+    h2, .title{
         font-size: 46px !important;
     }
     
@@ -656,7 +665,7 @@ p{
 }
 
     .footer-left{
-        padding-bottom: 60px;
+        padding-bottom: 0px;
     }
 
     .footer-right{
@@ -673,6 +682,10 @@ p{
         padding-left: 20px;
     }
 
+    .footer-right h3{
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
     
 }
 
