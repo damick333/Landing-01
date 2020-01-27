@@ -2,7 +2,15 @@ body{
 	width: 100%;
     margin:0px auto;
     /* font-size: 90%; */
+
+
+
+    
 }
+
+ * {
+     box-sizing: border-box;
+ }
 /* 
 @media only screen and (max-width: 980px){
     body{
@@ -81,7 +89,10 @@ section music*/
     text-align: left;
     width: 100%;
     font-family: 'Montserrat';
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .container{
     width: 100%;
@@ -90,9 +101,6 @@ section music*/
     margin-right: auto;
 }
 .slide{
-    position: absolute;
-    top: 100px;
-    left: 0;
     width: 100%;
     opacity: 0;
     z-index: -1;
@@ -219,8 +227,8 @@ section music*/
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .access .access-left{
@@ -576,13 +584,19 @@ p{
         display: none;
     }
     .slide{
-        top: 155px;
+        top: 150;
     }
     .music-hero-content{
         padding-left: 10px;
         padding-right: 10px;
         width: 80%;
+        padding-top: 0px;
     }
+
+    .music .carrusel .title{
+        padding-top: 0px;
+    }
+
     .boton{
     padding:24px 1px;
 
@@ -594,7 +608,7 @@ p{
         width: 100% !important ;
     }
     .container{
-        width: 80%;
+        width: 100%;
     }
     .steps{
         flex-wrap: wrap;
@@ -628,17 +642,21 @@ p{
     .steps{
         justify-content: left !important;
     }
+
+    .footer-right{
+        padding-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 650px){
     .container{
         display: inline-block;
-        padding-left: 50px;
         
     }
 
     .boton{
         padding:24px 1px;
+        margin-bottom: 10px;
     
     }
     .subs-list{
@@ -654,10 +672,17 @@ p{
     .concept-texto, .circulo, .steps, .access-both, .music-hero, .music, .menu{
         flex-wrap: wrap;
     }
+
+    .music .carrusel p {
+        padding-bottom: 25px;
+        font-size: 15px;
+    font-family: 'Montserrat';
+    line-height: 27px;
+    }
 }
 
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 530px){
     
 
     .music .carrusel .title {
@@ -666,8 +691,8 @@ p{
     }
 
     .slide {
-        top: 0;
-}
+        top: 70;
+    }
 .music .carrusel p {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -676,6 +701,7 @@ p{
 
     .boton {
         margin-bottom: 20px;
+        padding: 24px 0px;
     }
 
     .boton {
@@ -687,8 +713,8 @@ p{
         padding:0px;
     }
 
-    h2, .title{
-        font-size: 46px !important;
+    h2, .music .carrusel .title{
+        font-size: 46px;
     }
     
 
@@ -710,6 +736,7 @@ p{
     .subs-list {
         width: auto;
         padding: 0px;
+        margin-left: 10px;
 }
 
     .footer-left{
@@ -726,21 +753,40 @@ p{
         font-size: 36px;
     }
 
-    .container{
-        padding-left: 20px;
-    }
+    
 
     .footer-right h3{
         padding-top: 40px;
         padding-bottom: 10px;
     }
+
+    .steps{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .concept-texto div{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .concept-texto {
+        width: 100%;
+        margin: 0px;
+    }
+
+
     
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 340px){
 
     h2{
         font-size:30px !important;
+    }
+
+    .slide {
+        top: 55;
     }
 
     .music .carrusel p {
@@ -750,18 +796,32 @@ p{
 
     .boton {
         margin-bottom: 11px;
-        font-size: 12px;
+        font-size: 9px;
+        padding: 23px 0px
     }
 
     .music-hero-content {
-        padding-left: 0px; 
-        padding-right: 0px;
-        padding-top: 30px;
+        padding-left: 10px; 
+        padding-right: 10px;
+        padding-top: 0px;
         width: 100%;
     }
 
     .subscription-left span{
-        font-size: 22PX;
+        font-size: 28px;
     }
 
+    .music .carrusel .title {
+        line-height: 54px;
+        font-size: 40px;
+    }
+
+    ol, ul{
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+    .fotografias{
+        padding-top:30px;
+    }
 }
