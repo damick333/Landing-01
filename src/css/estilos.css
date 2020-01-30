@@ -419,9 +419,9 @@ p{
     opacity: .5;
 }
 
-.subscription-left div.boton.red.rojo{
+/* .subscription-left div.boton.red.rojo{
     padding:23px 0px;
-}
+} */
 
 .subs-list{
     background-color: #1c294a;
@@ -597,10 +597,10 @@ p{
         padding-top: 0px;
     }
 
-    .boton{
-    padding:24px 1px;
+    /* .boton{
+    padding:23px 1px;
 
-    }
+    } */
     .access-both{
         flex-wrap: wrap;
 }
@@ -649,16 +649,21 @@ p{
 }
 
 @media only screen and (max-width: 650px){
-    .container{
+    /* .container{
         display: inline-block;
         
-    }
+    } */
 
-    .boton{
-        padding:24px 1px;
+    .music-hero-content.red ,.gray{
+        padding:23px 1px;
         margin-bottom: 10px;
     
     }
+
+    .subscription-left div.boton.red.rojo{
+
+    }
+
     .subs-list{
         flex-wrap: wrap;
     }
@@ -699,15 +704,12 @@ p{
 
     }
 
-    .boton {
+    .music-hero-content .boton {
         margin-bottom: 20px;
         padding: 24px 0px;
-    }
-
-    .boton {
-        margin-bottom: 20px;
         font-size: 14px;
     }
+
 
     .access .access-left{
         padding:0px;
@@ -794,9 +796,9 @@ p{
         padding-bottom: 15px;
     }
 
-    .boton {
+    .music-hero-content .boton {
         margin-bottom: 11px;
-        font-size: 9px;
+        font-size: 10px;
         padding: 23px 0px
     }
 
